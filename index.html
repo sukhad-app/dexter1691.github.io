@@ -491,7 +491,7 @@ respect to similarity of any of the parts
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="EvalAI" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="Finbot" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -503,82 +503,40 @@ respect to similarity of any of the parts
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="modal-body">
-                            <h2>EvalAI</h2>
+                            <h2>FinBot</h2>
                             <br>
-                            <img src="img/evalai_logo.png" class="img-responsive img-centered" alt="">
-                            <h3> The Problem: Benchmarking progress in AI is hard </h3>
-
-                            <p>
-                                Artificial Intelligence (AI) as a field has progressed significantly in the recent years. A major portion of this progress can be attributed to the proposal of bold new multi-modal AI tasks (recognition, captioning, VQA, Visual Dialog) together with curation of associated datasets -- Common Objects in COntext (COCO), ImageNet, Visual Question Answering (VQA), Stanford Question Answering Dataset (SQUAD), etc. Moving forward, with more datasets being released and new tasks being proposed, comparing a new algorithm with existing algorithms is nontrivial and is hindered by multiple factors:
-                            
+                            <p>Finbot provides all the common features including :
                                 <ol class="list item-details">
-                                    <li>Different evaluation schemes for the same task.</li>
-                                    <li>Implementation of the different metric or evaluation across different splits of the dataset.</li>
-                                    <li>Computational bottlenecks on evaluation servers holding unseen test data.</li>
+                                    <li>Fund transfer</li>
+                                    <li>Account and deposits</li>
+                                    <li>Recharge</li>
+                                    <li>Bill payment and reminders</li>
+                                    <li>Card and loans</li>
+                                    <li>Tracking nearby ATM’s</li>
                                 </ol>
+                                Apart from all these features, several new features have been added which have been described in detail below.The chatbot has been improved to serve personalised queries analysing financial habits and speech recognition has also been added to enhance user experience.
                             </p>
                             
-                            <h3>The Solution: EvalAI</h3>
-                            <p>
-                                EvalAI is an open source web platform that aims to help researchers, students and data scientists create, collaborate, and participate in AI challenges. By simplifying and standardizing the process of benchmarking AI, we want to circumvent many of the factors impeding the rate of progress in AI. Our plan is to do this in the following ways: 
-                            
+                            <p> How finbot improves user experience?
                                 <ol class="list item-details">
-                                    <li>Reduced barrier to entry for hosting AI challenges.</li>
-                                    <li>Standardized evaluation protocols (same dataset splits and metrics) for measuring the performance of different algorithms on a given task.<br></li>
-                                    <li>Central public leaderboards (“who is the best on X?”).</li>
-                                    <li>Faster evaluation of submissions using parallelization techniques that take advantage of distributed multi-core machines.</li>
+                                    <li>Provides a feature to communicate with the using speech instead of just text.</li>
+                                    <li>Finbot provides answers to personalised queries.</li>
+                                    <li>Finbot acts as a personal assistant for the user providing various suggestions on spending habits also providing techniques to maximize savings.</li>
+                                    <li>Provides user to monitor his cash spending by keeping a track of his cash wallet</li>
                                 </ol>
+                                Some of the features are:      
                             </p>
+                            <img src="img/1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/2.png" class="img-responsive img-centered" alt="">
+                            <img src="img/3.png" class="img-responsive img-centered" alt="">
 
                             <h3> Important links: </h3>
                             <ul class="list-inline item-details">
                                 <li>
-                                    <strong><a href="https://evalai.cloudcv.org">Website</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://github.com/Cloud-CV/EvalAI">Github</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://evalai.readthedocs.io/en/latest/">Documentation</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://gitter.im/Cloud-CV/EvalAI">Gitter Link</a>
+                                    <strong><a href="https://www.youtube.com/watch?v=TAP1iy4L-vE&index=6&list=PLZY748KNPIRV9IedvO0JYjqV5Alsyr4gd">Teaser Video</a>
                                     </strong>
                                 </li>
                             </ul>
-                    
-                            <h3> How it is different from Kaggle? </h3>
-                            <p>
-                                The central differences are:
-                            
-                            <ul class="list item-details">
-                                <li> Custom Evaluation Protocols and Phases: We have designed versatile backend framework that can support user-defined evaluation metrics, various evaluation phases, private and public leaderboard. </li>
-                                <li> Faster Evaluation: The backend evaluation pipeline is engineered so that submissions can be evaluated parallelly using multiple cores on multiple machines via mapreduce frameworks offering a significant performance boost over similar web AI-challenge platforms.</li>
-                                <li>Portability: Since the platform is open-source, users have the freedom to host challenges on their own private servers rather than having to explicitly depend on Cloud Services such as AWS, Azure, etc.</li>
-                                <li>Centralized Leaderboard: Challenge Organizers whether host their challenge on EvalAI or forked version of EvalAI, they can send the results to main EvalAI server. This helps to build a centralized platform to keep track of different challenges.</li>
-                                
-                            </ul>
-                            </p>
-                            
-
-                            <h3> Performance comparisons with other platforms: </h3>
-
-                            <p> EvalAI hosted Visual Question Answering (VQA) 2017 challenge as its first challenge. To give some background, last year, the VQA 2016 challenge was hosted on Codalab, and on average evaluation would take ~10 minutes. This year, the dataset for the VQA Challenge 2017 was twice as large. Despite this, we have found that our parallelized backend took only ~130 seconds to evaluate on the whole test set of VQA dataset. </p>
-
-                            <h3> Research Organizations using EvalAI: </h3>
-                            
-                            <div class="row">
-                            <div class="col-xs-3"><img src="https://evalai.cloudcv.org/dist/images/organizations/fb.png" class="img-responsive img-centered" alt=""></div>
-                            <div class="col-xs-3"><img src="https://evalai.cloudcv.org/dist/images/organizations/google.png" class="img-responsive img-centered" alt=""></div>
-                            <div class="col-xs-3"><img src="https://evalai.cloudcv.org/dist/images/organizations/mapillary.png" class="img-responsive img-centered" alt=""></div>
-                            <div class="col-xs-3"><img src="https://evalai.cloudcv.org/dist/images/organizations/gt.png" class="img-responsive img-centered" alt=""></div>
-                            </div>
-                            
-                            <br>
-                            <br>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -586,7 +544,7 @@ respect to similarity of any of the parts
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="Fabrik" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="Visually" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -598,7 +556,7 @@ respect to similarity of any of the parts
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="modal-body">
-                            <h2>Fabrik</h2>
+                            <h2>Visually</h2>
                             <br>
                             <img src="https://github.com/Cloud-CV/Fabrik/raw/master/example/fabrik_demo.gif?raw=true" class="img-responsive img-centered" alt="">
                             <p> Fabrik is an online collaborative platform to build, visualize and train deep learning models via a simple drag-and-drop interface. It allows researchers to collaboratively develop and debug models using a web GUI that supports importing, editing and exporting networks written in widely popular frameworks like Caffe, Keras, and TensorFlow.</p>
